@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main ()
+{
+int hours;
+int minutes;
+printf("Given hours = \n");
+scanf("%d", &hours);
+printf("Given minutes = \n", minutes);
+scanf("%d", &minutes);
+float c;
+c= hours*60;
+float total = c+minutes;
+
+printf("Total minutes = %f", total);
+
+return 0;
+}
