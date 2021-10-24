@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main ()
+{
+float a, b;
+printf("First number = \n");
+scanf("%f", &a);
+printf("Second number = \n");
+scanf("%f", &b);
+float sum= a+b;
+printf("Sum of the two numbers = %f \n", sum);
+
+return 0;
+}
