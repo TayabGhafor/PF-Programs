@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main()
+{
+    int num, num1, num2, num3, num4, sum;
+
+    printf("Enter a 4 digit number = ");
+    scanf("%d",&num);
+
+    num4 = num%10;
+    num = num/10;
+    num3 = num%10;
+    num = num/10;
+    num2 = num%10;
+    num = num/10;
+    num1 = num%10;
+
+    printf("First digit = %d", num1);
+    printf("\nSecond digit  %d", num2);
+    printf("\nThird digit = %d", num3);
+    printf("\nFourth digit = %d", num4);
+
+    sum=num1+num2+num3+num4;
+
+    printf("\nSum of all four digits = %d", sum);
+
+    return 0;
+}
